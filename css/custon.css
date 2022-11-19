@@ -1,0 +1,182 @@
+html,body{
+
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    background: -webkit-linear-gradient(-135deg, #006eff, #ffffff);
+    background: -o-linear-gradient(-135deg, #006eff, #ffffff);
+    background: -moz-linear-gradient(-135deg, #006eff, #ffffff);
+    background: linear-gradient(-135deg, #006eff, #ffffff);
+ }
+/*CSS da Barra de Pesquisa*/
+#header1 .nav-item {
+    font-size: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+#header1 .nav-link:hover {
+    border-bottom: solid 1px black;
+    color: black;
+}
+/*CSS carrossel de todas as paginas*/
+/*Se mexer aqui vai mecer no carrossel de todas as paginas*/
+.fonte{
+    font-size: 190px;
+    font-family: 'Dancing Script', cursive;
+}
+/*Fim do CSS das fontes do carrossel*/
+/*CSS do carrossel da pagina INDEX*/
+.fonte1{
+    font-size: 180px;
+    font-family: 'Dancing Script', cursive;
+}
+/*Fim do CSS do carrossel da pagina INDEX*/
+/*Fim do CSS carrossel de todas as paginas*/
+#carouselExampleFade .carousel-inner{
+    margin-top: 25px;
+}
+/*Linha*/
+.timeline.timeline-four {
+    margin: 2.59rem 0;
+    position: relative
+}
+.timeline.timeline-four::before {
+    content: "";
+    display: block;
+    width: .0625rem;
+    height: 100%;
+    background: rgba(188, 137, 35, 0.994);
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+@media (max-width: 575.98px) {
+    .timeline.timeline-four::before {
+        margin: 0;
+        left: 0
+    }
+}
+.timeline.timeline-four .timeline-item {
+    margin-bottom: 7.5rem;
+    position: relative
+}
+.timeline.timeline-four .timeline-item::after {
+    content: "";
+    display: block;
+    clear: both
+}
+/*Fim linha*/
+/*Bolinha*/
+.timeline.timeline-four .icon1 {
+    width: 16px;
+    height: 16px;
+    margin: auto;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    border: .0625rem solid wheat;
+    margin-top: 1rem;
+    top: 20px;
+    left: 0;
+    right: 0
+}
+/*Fim bolinha*/
+/*Imagens*/
+.timeline.timeline-four .date-content {
+    width: 50%;
+    float: left;
+    position: relative
+}
+.timeline.timeline-four .timeline-content {
+    width: 50%;
+    padding: 0.625rem 0 0.625rem 3.125rem;
+    float: right
+}
+.timeline.timeline-four .timeline-item:nth-child(2n) .timeline-content {
+    padding: 0.625rem 3.125rem 0.625rem 0;
+    text-align: right
+}
+.timeline.timeline-four .timeline-item:nth-child(2n) .date-content {
+    float: right
+}
+/*Fim imagens*/
+/*---------------- 2- SECTION PRINCIPAL--------------------*/ 
+/*Fundo perguntas*/
+section.passo-passo {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0;
+}
+/*Fim fundo perguntas*/
+/*Titulo perguntas*/
+section.passo-passo h2 {
+    font-size: 54px;
+    line-height: 70px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+/*Fim titulo principal*/
+/*---------------- 4- TIPOGRAFIA-------------------*/
+/*Titulo de cada pergunta*/
+section.passo-passo span h3 {
+    font-size: 30px;
+    margin-right: 50px;
+    color: #000000;
+    font-weight: 700;
+}
+section.passo-passo span p {
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+section.passo-passo span .lefth3 {
+    text-align: right;
+}
+
+img.duploimgright2021 {
+    margin-top: 30px;
+}
+/*Fim do titulo de cada pergunta*/
+/*Fim das perguntas CSS*/
+.container21{
+    margin: -20px;
+    background-color: #ffffff;
+}
+.fontes{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px ;
+}
+.mt-1{
+    font-size: 54px;
+    line-height: 70px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.container-login100{
+    width: 85%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.cardss{
+    width: 85%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.container22{
+    margin-top: -45px;
+    background-color: #ffffff;
+}
+.featurette-divider{
+    background-color: #006eff;
+}

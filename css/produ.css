@@ -1,0 +1,135 @@
+/*Tamanho do slides do card*/
+.slide-container{
+    max-width: 1200px;
+    height: 100%;
+    padding: 40px 0;
+}
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+/*card*/
+.card{
+    border-radius: 25px;
+    background-color: #FFF;
+}
+/*Arruma a imagem no centro*/
+.imagem-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+/*Responsável pela parte de baixo dos cards*/
+.imagem-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+/*Responsável pela parte de cima dos cards*/
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #006eff;
+    border-radius: 25px 25px 0 25px;
+}
+/*Responsável pela parte da lateral dos cards*/
+/*essa parte tem que ter a mesma cor da parte de cima do card*/
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color:#006eff;
+}
+/*essa parte tem que ter a mesma cor da parte de baixo do card*/
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+/*Responsável pela imagem dos cards*/
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 3px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #006eff;
+}
+/*Responsável pelo títulos do card*/
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+/*Responsável pela descrição do card*/
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+/*Responsável pelo botão*/
+.button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #000000;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: #c4bdc1;
+}
+/*Responsável pelas setinhas das laterais*/
+.swiper-navBtn{
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+    color: #37ff00;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 40px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+/*Responsável pelos pontinhos da parte inferior*/
+.swiper-pagination-bullet{
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: #FFF;
+}
+/*Responsável pela dimensão dos cards no site*/
+@media screen and (max-width: 768px){
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navBtn{
+        display: none;
+    }
+}

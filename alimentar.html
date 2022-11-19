@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagens/logoinicio.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">  <link rel="stylesheet" href="css/swiper-bundle.min.css"> 
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="css/produ.css"><title>Educação Alimentar</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <!--Inicio da Barra de pesquisa-->
+  <div id="header1">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="./imagens/logoinicio.png" alt=""></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Tipos de Educação
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="formal.html">Educação Formal</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="informal.html">Educação Informal</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="naoformal.html">Educação Não Formal</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobrenos.html">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contatos.html">Contatos</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Procurar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--Fim da Barra de pesquisa-->
+  <br>
+  <!--Começo dos Cards-->
+  <div class="cardss">
+    <div class="slide-container swiper">
+      <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="imagem-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="./imagens/Infantil.png" alt="" class="card-img">
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Educação Infantil</h2>
+              <p class="description"></p>
+              <a href="infantil.html" class="button">Saiba Mais</a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="imagem-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="./imagens/Financeira.png" alt="" class="card-img">
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Educação Financeira</h2>
+              <p class="description"></p>
+              <a href="financeira.html" class="button">Saiba Mais</a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="imagem-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="./imagens/Familiar.png" alt="" class="card-img">
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Educação Familiar</h2>
+              <p class="description"></p>
+              <a href="familiar.html" class="button">Saiba Mais</a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="imagem-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="./imagens/Emocional.png" alt="" class="card-img">
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Educação Emocional</h2>
+              <p class="description"></p>
+              <a href="emocional.html" class="button">Saiba Mais</a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="imagem-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="./imagens/Escolar.png" alt="" class="card-img">
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Educação Escolar</h2>
+              <p class="description"></p>
+              <a href="escolar.html" class="button">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+  <!--Fim dos Cards-->
+  <div id="header">
+</body>
+<!--Link do js dos cards-->
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<!--Fim do js dos cards-->
+<section class="passo-passo">
+  <div class="container-login100">
+    <h2 class="mt-3">Educação Alimentar</h2>
+    <!-- Timeline -->
+    <div class="row featurette">
+      <div class="col-md-7">
+        <p class="fontes"> 
+          A educação alimentar e nutricional tem por finalidade contribuir para a promoção e a proteção da saúde, através de uma alimentação adequada e saudável, desempenhando seu crescimento e desenvolvimento humano conforme as políticas públicas em alimentação e nutrição.</p>
+        <p class="fontes">FONTE: Portal UNISEPE</p>
+      </div>
+      <div class="col-md-5">
+        <div class="timeline-content duploright">
+          <img src="imagens/conceitoAlimentar.png" class="img-fluid duploimg duploimgright1997" width="450" height="450">
+        </div>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <p class="fontes">
+          A educação alimentar e nutricional consiste em estratégias sistematizadas que possuem como objetivos a promoção de hábitos alimentares saudáveis voluntários e o incentivo da cultura e valorização da alimentação como elemento fundamental para a vida.</p>
+        <p class="fontes">FONTE: Lynx</p>
+      </div>
+      <div class="col-md-5">
+        <div class="timeline-content duploright">
+          <img src="imagens/importanciaAlimentar.png" class="img-fluid duploimg duploimgright1997" width="450" height="450">
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <p class="fontes">
+          Problematização: Alimentação inadequada gera problemas individuais (obesidade, hipertensão, diabetes, câncer, perda de qualidade de vida) e de saúde pública (aumento da demanda devido ao crescimento de doenças crônicas).</p>
+        <p class="fontes">FONTE: Imaginie</p>
+      </div>
+      <div class="col-md-5">
+        <div class="timeline-content duploright">
+          <img src="imagens/problemasAlimentar.png" class="img-fluid duploimg duploimgright1997" width="450" height="450">
+        </div>
+    </div>
+  </div>
+</div>
+    </section>
+<div class="container22">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="alimentar.html" class="nav-link px-2 text-muted">Voltar para o inicio</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2022 Company, Etec CT</p>
+  </footer>
+</div>
+</body>
+</html>
